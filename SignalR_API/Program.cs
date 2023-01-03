@@ -38,6 +38,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 //localhost:4400/MyHub þeklinde girerlerse URL ulaþsýnlar diye belirtiyoruz
-app.MapHub<MyHub>("/MapHub");
+app.MapHub<MyHub>("/MyHub");
 
 app.Run();
